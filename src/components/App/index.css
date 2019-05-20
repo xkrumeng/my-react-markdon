@@ -17,7 +17,13 @@
   height: 100%;
 }
 
+.preview {
+  padding: 0 20px;
+}
+
 .selector {
   position: absolute;
   bottom: 40px;left: 200px;
 }
+
+
