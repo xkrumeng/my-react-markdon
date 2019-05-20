@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.spliter {
+  width: 3px;
+  height: 100%;
+  z-index: 10000;
+  border: 2px dashed #CCC;
+  cursor: ew-resize;
+}
+
+.panel {
+  flex: 1;
+  height: 100%;
+}
+
+.selector {
+  position: absolute;
+  bottom: 40px;left: 200px;
+}
